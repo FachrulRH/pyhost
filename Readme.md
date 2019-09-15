@@ -1,4 +1,4 @@
-# PYHOST
+# PYHOST V.1-b
 Bypass vhosts grab config with python
 
 # How to use:
